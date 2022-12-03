@@ -1,0 +1,16 @@
+{
+  "name": "hillfoilo",
+  "version": "1.0.0",
+  "description": "my final portfolio",
+  "main": "index.js",
+  "author": "Hill Onyechekwa",
+  "license": "MIT",
+  "scripts": {
+    "start": "eleventy --serve",
+    "bulid": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "gsap": "^3.11.3"
+  }
+}
