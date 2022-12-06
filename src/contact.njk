@@ -7,6 +7,20 @@ layout: 'base.njk'
     <h1>Want to get in touch!</h1>
     <p>I'm always open to new opportunities or if you just want to work on some interesting project.</p>
     <section class="contact-form container">
-        
+        <form class="form" action="/success" method="POST" data-netlify="true">
+            <section class="form-control">
+                <label for="name">Name</label>
+                <input type="text" clas="form-input" placeholder="type your name here" name="name" id="name" required/>
+            </section>
+            <section class="form-control">
+                <label for="email">Email</label>
+                <input type="email" class="form-input" placeholder="type your email here" name="email" id="email" required/>
+            </section>
+            <section class="form-control">
+                <label for="message">Message</label>
+                <textarea class="form-input" name="message" id="message" rows="3" required/>
+            </section>
+            <button class="form-button" type="submit"> Let's have a chat </button>
+        </form>
     </section>
 </header>
