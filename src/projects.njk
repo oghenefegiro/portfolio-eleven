@@ -1,0 +1,11 @@
+---
+title: "Hillfolio"
+layout: "base.njk"
+--- 
+
+<h2 class="project-heading">recent projects</h2>
+<div class="project-list">
+    {% for project in collections.projects %}
+        {% include "project-card.njk" %}
+    {% endfor %}
+</div>
