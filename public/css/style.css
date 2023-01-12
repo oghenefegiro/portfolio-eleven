@@ -14,7 +14,8 @@
 
 *{
     font-family: 'Josefin Sans', 'Tahoma', 'Source Sans Pro', 'Futura Md BT', sans-serif;
-    margin: 0;
+    margin: 02558
+    5000000000000203;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -120,7 +121,7 @@ p{
     top: 80%;
     left: 10%;
     z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,   0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .navigation #nav-logo-icon{
@@ -165,8 +166,8 @@ p{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 80px;
+    left: 10%;
     border-radius: 10px;
     background-color: var(--primary);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -216,20 +217,17 @@ p{
 }
 
 .technologies{
-    width: 400px;
+    width: 600px;
     position: relative;
-    left: 60%;
-    top: -350px;
+    top: 180px;
+    left: 50%;
 }
 
 .technologies .tech-list{
-    display: grid;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 10px;
-    row-gap: 15px; 
+    flex-wrap: wrap;
 }
 
 .technologies .technologies-heading{
@@ -259,12 +257,14 @@ p{
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--secondary);
+    text-align: center;
 }
 
 .projects{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: var(--neutral);
+    margin-top: 20%;
 }
 
 .projects h2{
@@ -277,7 +277,9 @@ p{
 }
 
 .projects h3 {
-    inline-size: 600px;
+    font-size: 15px;
+    line-height: 1.8rem;
+    inline-size: 350px;
     word-wrap: break-work;
     color: var(--secondary);
     margin-top: 10px;
@@ -361,7 +363,7 @@ p{
 
 
 .footer{
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     background-color: var(--secondary);
 }
