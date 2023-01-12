@@ -229,6 +229,7 @@ p{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .technologies .technologies-heading{
@@ -308,20 +309,26 @@ p{
     width: 100%;
     padding: 5px;
     background-color: var(--secondary);
+    border-radius: 10px 10px 0px 0px;
 }
 
 .projects .project-grid .project-card .project-card-image-wrapper img{
-    width: 100px;
+    width: 150px;
     position: relative;
-    left: 50%;
-    top: 50px;
+    left: 20%;
+    top: 60px;
     border-radius: 10px;
     z-index: 1;
 }
 
 .projects .project-grid .project-card .project-card-body{
     width: 100%;
+    height: 250px;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     position: relative;
     z-index: 2;
 }
@@ -337,8 +344,6 @@ p{
     color: var(--white);
     font-size: 12px;
     position: relative;
-    top: -15px;
-    left: 10px;
     transition: color .1s ease-out .5s
 }
 
@@ -354,9 +359,10 @@ p{
 
 
 .projects .project-grid .project-card .project-card-body .project-card-title a{
-    color: var(--white);
+    color: var(--secondary);
     transition: color .1s ease-out .5s;
-    margin-left: -40px;
+    position: relative;
+    left: 30px;
 }
 
 .projects .project-grid .project-card .project-card-body .project-card-title a:hover {
@@ -365,7 +371,7 @@ p{
 
 .projects .project-grid .project-card .project-card-body .project-card-tags{
     width: 100%;
-    display:flex;
+    display: flex;
     color: var(--white);
     justify-content: space-around;
     align-items: center;
@@ -377,6 +383,10 @@ p{
     color: var(--white);
     font-size: 1.4rem;
     padding: 10px;
+}
+
+.projects .project-grid .project-card:nth-child(2) .project-card-body .project-card-summary{
+    font-size: 1.2rem;
 }
 
 
