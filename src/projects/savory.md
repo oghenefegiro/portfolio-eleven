@@ -1,8 +1,8 @@
 ---
-title: "Savory"
+title: "Savory Tales"
 summary: "Sometimes you just want to get a good recipe to make that amazing dinner for that friend or family memeber coming over for a visit or you just want really impress that person you like coming for the third date."
-image: /images/savory.jpg
-imageAlt: "Screenshots of catch up app"
+image: images/savory.png
+imageAlt: "Screenshots of savory tales app"
 tech:
   - "React.js"
   - "Node.js"
