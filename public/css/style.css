@@ -487,27 +487,44 @@ p{
     height: 100vh;
     padding: 20px;
     background-color: var(--neutral);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
-.about-heading{
+.about-wrapper article .about-heading{
     font-size: 4.3rem;
     color: var(--primary);
+    text-transform: capitalize;
 }
 
-.about-wrapper p{
-    font-size: 1.7rem;
+.about-wrapper article p{
+    font-size: 2rem;
+    line-height: 2.3rem;
 }
 
 .about-wrapper img{
-    width: 500px;
+    width: 300px;
     position: relative;
-    left: 10px;
+    margin: 20px;
 }
 
-.about-wrapper .about-profile_img{
-    clip-path: url(#aboutPageImage)
+.about-wrapper #about-profile_image{
+    clip-path: url(#aboutImageClip);
 }
 
+
+
+
+.about-wrapper article #p2 a,
+.about-wrapper article #p3 a{
+    color: var(--primary);
+}
+.about-wrapper article #p2 a:hover,
+.about-wrapper article #p3 a:hover{
+    color: var(--dark);
+}
 
 
 .footer{
