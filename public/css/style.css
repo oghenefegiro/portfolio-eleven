@@ -514,8 +514,28 @@ p{
     clip-path: url(#aboutImageClip);
 }
 
+.contact-wrapper{
+    width: 100%;
+}
 
+.contact-wrapper h1{
+    font-size: 4.5rem;
+    color: var(--primary);
+    margin: 20px 0px 0px 20px;
+}
 
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-form form .form-control{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
 
 .about-wrapper article #p2 a,
 .about-wrapper article #p3 a{

@@ -3,25 +3,19 @@ title: 'Hillfolio'
 layout: 'base.njk'
 ---
 
-<header>
-    <h1>Want to get in touch!</h1>
-    <p>I'm always open to new opportunities or if you just want to work on some interesting project.</p>
-    <section class="contact-form container">
-        <form class="form" action="/success" method="POST" data-netlify="true">
+<header class='contact-wrapper'>
+    <h1 class='contact-title'>Want to get in touch!</h1>
+    <p class='contact-subhead'>I'm always open to new opportunities or if you just want to work on some interesting project.</p>
+    <section class="contact-form">
+        <div class="img-wrapper"></div>
+        <form name='contact' action="POST" data-netlify='true'>
             <section class="form-control">
-                <label for="name">Name</label>
-                <input type="text" clas="form-input" placeholder="type your name here" name="name" id="name" required/>
-            </section>
+                <label for="name"></label><input type="name" id='name'></section>
             <section class="form-control">
-                <label for="email">Email</label>
-                <input type="email" class="form-input" placeholder="type your email here" name="email" id="email" required/>
-            </section>
+                <label for="email"></label><input type="email" id='email'></section>
             <section class="form-control">
-                <label for="message">Message</label>
-                <textarea class="form-input" name="message" id="message" rows="3" required/>
-            </section>
-            <button class="form-button" type="submit"> Let's have a chat </button>
+                <label for="message"></label><textarea id="message" rows='3'></textarea></section>
+                <button type="submit">done</button>
         </form>
     </section>
-    <h3 class="contact-social-title">You can also reach me on social media.</h3>
 </header>
