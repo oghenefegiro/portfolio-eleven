@@ -4,7 +4,7 @@
     --light-red: hsl(356, 100%, 66%);
     --very-light-red: hsl(355, 100%, 74%);
     --dark-blue: hsl(208, 49%, 24%);
-    --primary: hsl(263, 55%, 52%);
+    --primary: hsl(246, 79%, 56%);
     --secondary: hsl(219, 29%, 14%);
     --neutral: hsl(210, 46%, 95%);
     --greyish-blue: hsl(217, 19%, 35%);
@@ -13,7 +13,7 @@
 }
 
 *{
-    font-family: 'Inter', 'Tahoma', 'Source Sans Pro', 'Futura Md BT', sans-serif;
+    font-family: 'Josefin Sans', 'Tahoma', 'Source Sans Pro', 'Futura Md BT', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -75,10 +75,12 @@ p{
 
 .index-hero h1{
     font-size: 5rem;
+    color: #fff;
 }
 
 .index-hero h4{
     font-size: 1.8rem;
+    color: #fff;
 }
 
 .index-hero button{
