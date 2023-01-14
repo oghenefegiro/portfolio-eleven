@@ -87,6 +87,24 @@ p{
     width: 350px;
     height: 60px;
     border-radius: 5px;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+    transition: animation .2s ease-out 3s;
+}
+
+.index-hero button:hover{
+    /* TODO: add animation adn keyframes later. */
+}
+
+.index-hero article{
+    justify-self: center;
+
+}
+
+.index-hero svg{
+    width: 500px;
+    height: 500px;
 }
 
 .navigation{
@@ -359,6 +377,9 @@ p{
 .footer #copy-right span{
     color: var(--primary);
 }
+
+/* TODO: write animation keyfarme */
+@keyframes animteButton{}
 
 /* --------------media queries --------------- */
 /*mobile queries */
