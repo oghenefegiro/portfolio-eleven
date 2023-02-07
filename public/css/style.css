@@ -231,13 +231,9 @@ p{
 }
 
 .technologies .tech-list{
-    display: grid;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 10px;
-    row-gap: 15px; 
 }
 
 .technologies .technologies-heading{
@@ -510,20 +506,26 @@ p{
     font-size: 1.8rem;
     font-weight: 400;
     word-wrap: break-word;
+    margin-left: 30%;
+    line-height: 2.3rem;
 }
 
 .comm-image-grid{
     width: 50%;
-    height: 100%;
-    background-color: var(--very-light-red);
+    height: 80%;
+    background-color: var(--dark-blue);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1 fr);
+    gap: 20px;
+    padding: 10px 5px;
 }
 
 .comm-image-grid .image-grid-item{
     width: 300px;
     background-color: var(--secondary);
+    justify-self: center;
+    border-radius: 10px;
 }
 
 
