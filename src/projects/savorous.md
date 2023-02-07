@@ -4,7 +4,7 @@ summary: "Sometimes you just want to get a good recipe to make that amazing dinn
 image: "/images/screens/Savorous.png"
 imageAlt: "Screenshots of catch up app"
 tech:
-  - "React.js"
+  - "Next.js"
   - "Node.js"
   - "GraphQl"
   - "MongoDB"
