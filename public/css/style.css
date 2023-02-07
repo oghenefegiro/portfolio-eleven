@@ -519,13 +519,28 @@ p{
     grid-template-rows: repeat(2, 1 fr);
     gap: 20px;
     padding: 10px 5px;
+    border-radius: 15px;
 }
+
 
 .comm-image-grid .image-grid-item{
     width: 300px;
     background-color: var(--secondary);
     justify-self: center;
     border-radius: 10px;
+}
+
+.comm-image-grid .igone{
+
+}
+.comm-image-grid .igtwo{
+
+}
+.comm-image-grid .igthree{
+
+}
+.comm-image-grid .igfour{
+
 }
 
 
