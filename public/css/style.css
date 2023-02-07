@@ -449,13 +449,42 @@ p{
     color: var(--neutral);
 }
 
+/* about page */
+.about-header{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.about-header h2{
+    font-size: 3rem;
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.about-header p{
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    margin-bottom: 20px;
+}
+
+
+.about-header img{
+    width: 350px;
+    position: relative;
+    margin-left: 30%;
+}
+
+.about-header .about-image{
+    clip-path: url(#aboutPageImage);
+}
 
 
 .footer{
     width: 100%;
     height: 30vh;
     background-color: var(--secondary);
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 .footer #copy-right{
