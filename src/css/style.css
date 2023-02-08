@@ -100,7 +100,7 @@ p{
     top: 100px;
     cursor: pointer;
     /* transition: animation .2s ease-out 3s; */
-    transition: .3s ease-out;
+    transition: all .3s ease-out;
 }
 
 .index-hero button:hover{
@@ -108,6 +108,8 @@ p{
     background: var(--very-light-red);
     color: var(--white);
     border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .index-hero article{
@@ -661,7 +663,7 @@ p{
     border: 2px solid black;
     background-color: var(--dark-blue);
     color: var(--neutral);
-    transition: .34s ease-in;
+    transition: all .3s ease-in;
     cursor: pointer;
 }
 
@@ -670,6 +672,8 @@ p{
     background-color: var(--neutral);
     color: var(--dark-blue);
     border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 /* projects sub-page */
@@ -685,7 +689,7 @@ p{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
-    background-color: var(--primary);
+    background-color: var(--very-light-red);
 }
 
 .project article .project-heading{
