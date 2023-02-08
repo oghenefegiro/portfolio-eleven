@@ -3,10 +3,12 @@ layout: "base.njk"
 ---
 
 <div class="project">
+  <article>
   <h2 class="project-heading">{{ title }}</h2>
   <div class="project-image-wrapper">
       <img class="project-image" src="{{ image }}" alt="{{ imageAlt }}">
   </div>
+  </article>
   <div class="project-content prose">
     {{ content | safe }}
   </div>

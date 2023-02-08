@@ -95,18 +95,19 @@ p{
 .index-hero button{
     width: 350px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 10%;
     position: relative;
     top: 100px;
     cursor: pointer;
     /* transition: animation .2s ease-out 3s; */
-    transition: .2s ease-out;
+    transition: .3s ease-out;
 }
 
 .index-hero button:hover{
     /* TODO: add animation adn keyframes later. */
     background: var(--very-light-red);
     color: var(--white);
+    border-radius: 15px;
 }
 
 .index-hero article{
@@ -671,6 +672,58 @@ p{
     border-radius: 15px;
 }
 
+/* projects sub-page */
+
+.project{
+    width: 100%;
+    /* min-height: 100vh; */
+}
+
+.project article{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: var(--primary);
+}
+
+.project article .project-heading{
+    font-size: 10rem;
+    color: var(--white);
+}
+
+.project  article .project-image-wrapper{
+    padding: 30px;
+}
+
+.project .project-image-wrapper img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.project .project-content{
+    position: relative;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.project .project-content h3{
+    font-size: 2.8rem;
+    color: var(--dark-blue);
+}
+
+.project .project-content p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    inline-size: 350px;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+}
 
 .footer{
     width: 100%;
