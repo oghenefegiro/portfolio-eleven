@@ -47,6 +47,7 @@ body{
 
 .main-content{
     flex: 1;
+    margin-bottom: 30px;
 }
 
 
@@ -267,7 +268,7 @@ p{
 
 .projects{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-color: var(--neutral);
     margin-top: 180px;
 }
@@ -300,7 +301,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    top: 25%;
+    top: 10%;
 }
 
 .projects .project-grid .project-card{
@@ -308,9 +309,24 @@ p{
     padding: 20px;
 }
 
+.projects .project-grid .project-card .project-card-image-wrapper{
+    width: 100%;
+}
+
+.projects .project-grid .project-card .project-card-image-wrapper img{
+    width: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+
 .projects .project-grid .project-card .project-card-body{
     width: 100%;
     border-radius: 0px 0px 10px 10px;
+    position: relative;
+    z-index: 2;
 }
 
 .projects .project-grid .project-card .project-card-body .project-card-link svg{
@@ -331,8 +347,7 @@ p{
 
 
 .projects .project-grid .project-card .project-card-body .project-card-link:hover{
-    color: var(--secondary);
-
+    color: var(--very-light-red);
 }
 
 .projects .project-grid .project-card .project-card-body{
@@ -511,7 +526,7 @@ p{
 }
 
 .comm-image-grid{
-    width: 50%;
+    min-width: 50%;
     height: 80%;
     background-color: var(--dark-blue);
     display: grid;
@@ -524,23 +539,28 @@ p{
 
 
 .comm-image-grid .image-grid-item{
-    width: 300px;
-    background-color: var(--secondary);
+    width: 400px;
+    /* background-color: var(--secondary); */
     justify-self: center;
     border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.comm-image-grid .igone{
+.comm-image-grid > .igone{
+    background-image: url("../images/comm-imgs/comm-img-1.jpg");
 
 }
-.comm-image-grid .igtwo{
+.comm-image-grid > .igtwo{
+    background-image: url("../images/comm-imgs/comm-img-2.jpg");
 
 }
-.comm-image-grid .igthree{
-
+.comm-image-grid > .igthree{
+    background-image: url("../images/comm-imgs/comm-img-3.jpg");
 }
-.comm-image-grid .igfour{
-
+.comm-image-grid > .igfour{
+    background-image: url("../images/comm-imgs/comm-img-4.jpg");
 }
 
 
