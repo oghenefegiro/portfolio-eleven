@@ -1,7 +1,7 @@
 ---
 title: "Lordes'"
 summary: "Sometimes you need a hair cut but you're not in the same area code as you personal hair stylist or maybe you're just lazy to go to the hair salon and you wish it could come to you."
-image: /images/Lordes.jpg
+image: /images/lordes.png
 imageAlt: "Screenshots of Lordes' app"
 tech:
   - "React.js"

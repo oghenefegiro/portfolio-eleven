@@ -1,7 +1,7 @@
 ---
 title: "Respire"
 summary: "There are a good percentage of persons in africa who live with respiratory health problems. Respire is aimed to use the benefits of modern software technology to get the medication people suffering from these diseases to the patients on time and at a reasonable rate beyond what is usually the norm."
-image: /images/respire.jpg
+image: /images/respire.png
 imageAlt: "Screenshots of respire up app"
 tech:
   - "React.js"
